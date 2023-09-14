@@ -23,12 +23,22 @@
 
 .menu-bar__item > ul {
   display: flex;
-  text-decoration: none;
   list-style-type: none;
 }
 
 .menu-bar__item > ul > li {
-  border: 1px solid rgb(1, 0, 15);
   padding: 5px;
   margin-right: 15px;
+}
+
+.menu-bar__item > ul > li > a {
+  text-decoration: none;
+  color: rgb(1, 0, 15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+.menu-bar__item > ul > li > a:hover {
+  color: rgb(131, 131, 131);
+  font-weight: bold;
 }
