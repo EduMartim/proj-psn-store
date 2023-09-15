@@ -1,51 +1,16 @@
 <a href="#" class="card__container">
   <img
     class="card__img"
-    src="assets/spider-man2.webp"
+    [src]="[gameCover]"
     alt="spider-man picture"
     srcset=""
   />
-  <app-card-label gameLabel="Exclusive"> </app-card-label>
+  <app-card-label
+    gameLabel="{{ gameLabel }}"
+  ></app-card-label>
+
+  <app-card-pricing
+    gameType="{{ gameType }}"
+    gamePrice="{{ gamePrice }}"
+  ></app-card-pricing>
 </a>
-
-<!--
-  <a href="#" class="card__container">
-    <img
-      class="card__img"
-      src="assets/batman.jpg"
-      alt="batman picture"
-      srcset=""
-    />
-    <app-card-label></app-card-label>
-  </a>
-
-  <a href="#" class="card__container">
-    <img
-      class="card__img"
-      src="assets/call-of-duty.webp"
-      alt="call of duty picture"
-      srcset=""
-    />
-    <app-card-label></app-card-label>
-  </a>
-
-  <a href="#" class="card__container">
-    <img
-      class="card__img"
-      src="assets/hogwarts.webp"
-      alt="hogwarts picture"
-      srcset=""
-    />
-    <app-card-label></app-card-label>
-  </a>
-
-  <a href="#" class="card__container">
-    <img
-      class="card__img"
-      src="assets/mortal-kombat.webp"
-      alt="mortal Kombat picture"
-      srcset=""
-    />
-    <app-card-label></app-card-label>
-  </a>
--->
